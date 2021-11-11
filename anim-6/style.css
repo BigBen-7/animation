@@ -78,7 +78,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform .6s;
+    transition: transform .4s;
+    transition-timing-function: ease-out;
     overflow: hidden;
     box-shadow: 0 0 20px rgb(112, 112, 112);
 }
@@ -91,7 +92,8 @@ body {
     align-items: flex-start;
     flex-direction: column;
     padding-left: 30px;
-    transition: transform .6s;
+    transition: transform .4s;
+    transition-timing-function: ease-out;
     position: absolute;
 }
 
